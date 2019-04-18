@@ -65,7 +65,7 @@
     <?php
     $host = "wilham.database.windows.net";
     $user = "wilham";
-    $pass = "Azure12345";
+    $pass = "Azure123";
     $db = "DatabaseWilhamAzure";
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
